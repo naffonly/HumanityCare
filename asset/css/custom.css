@@ -1,0 +1,240 @@
+.mark{
+  border: 1px solid rgb(253, 15, 15);
+}
+
+.bgc{
+  background-color: aqua;
+}
+a{
+ 
+  text-decoration: none;
+}
+.form-control{
+  border-radius: 1rem;
+  color: rgb(0, 0, 0);
+}
+
+.form-control:focus{
+  border-color: #3B3BED;
+    box-shadow: 0 0 0 0.25rem rgb(56 39 255 / 25%);}
+    
+.btn-primary{
+    background: #3B3BED;
+    border: 0px;
+     border-radius: 50px;
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all .2s ease-in-out; 
+}
+.bg-primary{
+    background: #3B3BED;
+    border: 0px;
+    border-radius: 50px;
+}
+.btn-primarys{
+  background: #3B3BED;
+  border: 0px;
+   border-radius: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.bg-primarys::placeholder{
+  color: #fff;
+}
+.bg-berita{
+    background: #3B3BED;
+    border: 0px;
+    border-radius: 17px;
+}
+.btn-primary-reverse{
+  background: #ffffff;
+  border: 0px;
+   border-radius: 50px;
+  padding: 15px 40px 15px 40px;
+  font-size: 16px;
+  font-weight: bold;
+   transition: all .2s ease-in-out; 
+}
+.btn-primary-reverse:hover{
+  background: #d1d1d1;
+}
+
+.btn-primary:hover{
+    background:#2727be ;
+    border: 0px;
+}
+.nav-item{
+  
+  transition: all .2s ease-in-out; 
+}
+.nav-item:hover{
+  transform: scale(1.1);
+  border: 0px;
+  border-radius: 100px;
+}
+
+.hero h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.hero p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  .first-image{
+    width: 100%;
+    background-size: cover;
+    background-image: url('../img/slider-img1.png');
+  }
+
+  .seccond-image{
+    width: 100%;
+    background-size: cover;
+    background-image: url('../img/slider-img2.png');
+  }
+
+  .third-image{
+    width: 100%;
+    background-size: cover;
+    background-image: url('../img/slider-img3.png');
+  }
+  .bgi{
+    width: 100%;
+    background-size: cover;
+    background-image: url('../img/bg-item.png');
+  }
+
+
+  .bgc-i1{
+    width: 100%; 
+    background-image: url('../img/bg-i1.png');
+  }
+  .bgc-i2{
+    width: 100%; 
+    background-image: url('../img/bg-i2.png');
+  }
+  .bgc-i3{
+    width: 100%; 
+    background-image: url('../img/bg-i3.png');
+  }
+  .bgc-i4{
+    width: 100%; 
+    background-image: url('../img/bg-i4.png');
+  }
+  .bgc-i5{
+    width: 100%; 
+    background-image: url('../img/bg-i5.png');
+  }
+  .bgc-i6{
+    width: 100%; 
+    background-image: url('../img/bg-i6.png');
+  }
+  .bgc-i7{
+    width: 100%; 
+    background-image: url('../img/bg-i7.png');
+  }
+  .bgc-i8{
+    width: 100%; 
+    background-image: url('../img/bg-i8.png');
+  }
+  .col-item{
+    height: 200px;
+    width: 200px;
+  }
+  .circle-item{
+    box-shadow:2px 3px 22px 8px rgba(0, 0, 0, .19);
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    transition: all .2s ease-in-out; 
+  }
+.circle-item:hover{
+  transform: scale(1.1);
+  filter:blur(0.5px) grayscale(0.4) saturate(1.1) brightness(0.5);
+}
+  .img-item{
+    box-sizing: border-box;
+    height: 80%;
+
+  }
+  .bg-text{
+    height: 160px;
+    background: #3B3BED;
+    color: #ffffff;
+  }
+  .shadow{
+    background-color: black;
+   /* box-shadow:2px 3px 22px 8px rgba(0, 0, 0, .19);*/
+  }
+  .card{
+    box-shadow:2px 3px 22px 8px rgba(0, 0, 0, .19);
+    transition: all .2s ease-in-out; 
+  }
+
+  .card:hover{
+    transform: scale(1.1);
+  }
+  .bgb-i1{
+    width: 100%; 
+    background-size: cover;
+    background-image: url('../img/berita-item1.png');
+  }
+  .bgb-i2{
+    width: 100%; 
+    background-size: cover;
+    background-image: url('../img/berita-item2.png');
+  }
+  .bgb-i3{
+    width: 100%; 
+    background-size: cover;
+    background-image: url('../img/berita-item3.png');
+  }
+  .item-hight{
+    border-radius: 25px;
+    height: 200px;
+  }
+  .item-content{
+    border-radius: 25px;
+    height: 200px;
+  }
+
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+    width: 40px;
+  }
+  .btn-center{
+    height: 400px;
+    width: 150px;
+  }
+  .image-btn{
+    height: 400px;
+    background-size: cover;
+    background-image: url('../img/donasi-img.png');
+  }
+
+  .edu-form{
+    background-color: #3B3BED;
+  }
+  .footer-item{
+    background-color: rgb(24, 24, 24);
+  }
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+
+
+  }

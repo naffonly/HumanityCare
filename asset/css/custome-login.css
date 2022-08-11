@@ -1,0 +1,19 @@
+.btn-secondary{
+    width: 100%;
+    background-color: #3B3BED;
+}
+
+.item-text{
+    height: 760px;
+    background-size: cover;
+    background-image: url(../img/login-bg1.png);
+}
+
+.login-form{
+    height: 635px;
+      background-color: #ffffff;
+}
+
+.item{
+    width: 80%;
+}
